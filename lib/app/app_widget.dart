@@ -13,6 +13,7 @@ class AppWidget extends StatelessWidget {
       return MaterialApp(
         title: 'Flutter Demo',
         theme: Modular.get<AppController>().themeApp.getTheme(),
+        themeMode: Modular.get<AppController>().themeMode,
         initialRoute: "/",
         navigatorKey: Modular.navigatorKey,
         onGenerateRoute: Modular.generateRoute,
