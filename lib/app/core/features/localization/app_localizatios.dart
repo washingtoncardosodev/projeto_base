@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
-import 'package:projeto_base/app/core/internacionalization/app_localization_delegate.dart';
+import 'package:projeto_base/app/core/features/localization/app_localization_delegate.dart';
 
 class AppLocalizations {
   
