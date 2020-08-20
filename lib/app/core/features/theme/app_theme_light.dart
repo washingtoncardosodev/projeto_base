@@ -1,10 +1,15 @@
-import 'package:flutter/src/material/theme_data.dart';
-import 'package:projeto_base/app/core/interfaces/theme_app_interface.dart';
+import 'package:flutter/material.dart';
+import '../../../../app/core/interfaces/theme_app_interface.dart';
 
 class AppThemeLight implements IThemeAppInterface {
   @override
   ThemeData getTheme() {
     return ThemeData.light();
+  }
+
+  @override
+  String themeToString() {
+    return ThemeMode.light.toString();
   }
 
 }

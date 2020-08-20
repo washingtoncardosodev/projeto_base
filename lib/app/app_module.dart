@@ -1,11 +1,14 @@
-import 'package:flutter/src/widgets/framework.dart';
+
+import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:projeto_base/app/app_controller.dart';
-import 'package:projeto_base/app/app_widget.dart';
-import 'package:projeto_base/app/core/interfaces/shared_repository_interface.dart';
-import 'package:projeto_base/app/core/repositories/shared_repository.dart';
-import 'package:projeto_base/app/modules/home/home_module.dart';
-import 'package:projeto_base/app/modules/splash/splash_page.dart';
+
+import 'app_controller.dart';
+import 'app_widget.dart';
+import 'core/interfaces/shared_repository_interface.dart';
+import 'core/repositories/shared_repository.dart';
+import 'modules/home/home_module.dart';
+import 'modules/splash/splash_page.dart';
+
 
 class AppModule extends MainModule {
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projeto_base/app/core/features/localization/app_translate.dart';
+import '../../../app/core/features/localization/app_translate.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({Key key}) : super(key: key);

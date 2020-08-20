@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:projeto_base/app/core/features/localization/app_localizatios.dart';
+import 'app_localizatios.dart';
 
 class AppTranslate {
   final BuildContext context;

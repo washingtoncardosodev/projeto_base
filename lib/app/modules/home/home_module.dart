@@ -1,6 +1,6 @@
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:projeto_base/app/modules/home/home_controller.dart';
-import 'package:projeto_base/app/modules/home/home_page.dart';
+import 'home_controller.dart';
+import 'home_page.dart';
 
 class HomeModule extends ChildModule {
 

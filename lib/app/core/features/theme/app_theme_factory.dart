@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:projeto_base/app/core/features/theme/app_theme_dark.dart';
-import 'package:projeto_base/app/core/features/theme/app_theme_light.dart';
-import 'package:projeto_base/app/core/interfaces/theme_app_interface.dart';
+import '../../../../app/core/interfaces/theme_app_interface.dart';
+import 'app_theme_dark.dart';
+import 'app_theme_light.dart';
 
 class AppThemeFactory {
 
