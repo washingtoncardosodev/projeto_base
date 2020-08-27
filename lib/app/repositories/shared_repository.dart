@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../app/core/features/local_storage/local_storage.dart';
-import '../../../app/core/interfaces/shared_repository_interface.dart';
+import '../../app/core/local_storage/local_storage.dart';
+import '../../app/interfaces/shared_repository_interface.dart';
 
 class SharedRepository implements ISharedRepositoryInterface {
 

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../../app/core/interfaces/theme_app_interface.dart';
+import 'package:projeto_base/app/interfaces/theme_app_interface.dart';
+
 
 class AppThemeLight implements IThemeAppInterface {
   @override

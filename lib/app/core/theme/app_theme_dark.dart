@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../app/core/interfaces/theme_app_interface.dart';
+import '../../../app/interfaces/theme_app_interface.dart';
 
 class AppThemeDark implements IThemeAppInterface {
   @override
